@@ -14,7 +14,9 @@ router
   .get(ctrlMekanlar.mekanlariListele)
   .post(ctrlMekanlar.mekanEkle);
 
-router.route("/mekanlar/:mekanid/yorumlar").post(ctrlYorumlar.yorumEkle);
+router
+.route("/mekanlar/:mekanid/yorumlar")
+.post(ctrlYorumlar.yorumEkle);
 
 router
   .route("/mekanlar/:mekanid/yorumlar/:yorumid")
