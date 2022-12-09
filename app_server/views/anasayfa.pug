@@ -18,7 +18,7 @@ block content
             a(href="/mekan/"+mekanid)=mekan.ad
             small &nbsp;
             +puanOlustur(mekan.puan)
-          span.badge.pull-right.badge-default 1km 
+          span.badge.pull-right.badge-default #{mekan.mesafe}
           p.address= mekan.adres 
           p 
             each imkan in mekan.imkanlar
