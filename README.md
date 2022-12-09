@@ -1,1 +1,1 @@
-https://mekanbul.cumalioguz.repl.co/?enlem=37&boylam=35
+https://mekanbul8.cumalioguz.repl.co/?enlem=35&boylam=30
